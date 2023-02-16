@@ -1,0 +1,63 @@
+  /*******************
+    BASE SETUP
+  *******************/
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+  .clearfix:before,
+  .clearfix:after {
+      content: " "; /* 1 */
+      display: table; /* 2 */
+  }
+
+  .clearfix:after {
+      clear: both;
+  }
+
+  html {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    color: #3f3f3f;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 28px;
+    color: #222222;
+    margin: 0 0 4px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  body {
+    background-image: linear-gradient(to right bottom, #e7eae9, #dbe6df, #d3e0d2, #d0dac2, #d1d2b2, #cbcead, #c6c9a7, #c0c5a2, #b1c3a8, #a7c0ae, #a2bbb3, #a1b6b4);
+    width: 100%;
+    /* padding: 25%; */
+  }
+
+  a {
+    color: #3f3f3f;
+  }
+
+  a:hover {
+    color: #00927a;
+  }
+
+  .container {
+    padding: 20% 10%;
+    max-width: 900px;
+  }
+
+  img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 340px;
+    height: 340px;
+  }
